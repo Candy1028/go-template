@@ -2,8 +2,8 @@ package user
 
 import (
 	"context"
-	"github.com/redis/go-redis/v9"
 	"github.com/Candy1028/go-template/pkg/app"
+	"github.com/redis/go-redis/v9"
 	"gorm.io/gorm"
 )
 
