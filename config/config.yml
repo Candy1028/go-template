@@ -1,0 +1,30 @@
+db:
+  mysql:
+    username: "root"
+    pwd: "123456"
+    host: "127.0.0.1"
+    port: "3306"
+    charset: "utf8mb4"
+    database: "blog"
+  redis:
+    addr: "127.0.0.1:6379"
+    pwd: ""
+    db: 0
+server:
+  addr: "0.0.0.0:8080"
+log:
+  dir: "logs"
+  filename: "server.log"
+cors:
+  ip:
+    - "http://127.0.0.1:3306"
+rsa:
+  path: "config"
+  name: "rsa_private_key.pem"
+jwt:
+  access_token_secret: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  refresh_token_secret: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  access_token_expiry_time: 2h
+  refresh_token_expiry_time: 168h
+  issuer: go_blog
+
