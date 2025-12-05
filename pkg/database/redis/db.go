@@ -2,7 +2,7 @@ package redis
 
 import (
 	"context"
-	"go-template/log"
+	"github.com/Candy1028/go-template/log"
 	"sync"
 	"time"
 

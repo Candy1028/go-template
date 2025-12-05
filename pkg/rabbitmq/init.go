@@ -2,7 +2,7 @@ package rabbitmq
 
 import (
 	"fmt"
-	"go-template/log"
+	"github.com/Candy1028/go-template/log"
 	"sync"
 	"time"
 

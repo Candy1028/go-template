@@ -2,7 +2,7 @@ package logger
 
 import (
 	"context"
-	"go-template/log"
+	"github.com/Candy1028/go-template/log"
 	"time"
 
 	"gorm.io/gorm/logger"

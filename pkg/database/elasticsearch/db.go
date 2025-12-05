@@ -3,7 +3,7 @@ package elasticsearch
 import (
 	"context"
 	"crypto/tls"
-	"go-template/log"
+	"github.com/Candy1028/go-template/log"
 	"net/http"
 
 	logs "log"

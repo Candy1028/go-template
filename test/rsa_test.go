@@ -7,7 +7,7 @@ import (
 	"encoding/base64"
 	"encoding/pem"
 	"fmt"
-	"go-template/pkg/util"
+	"github.com/Candy1028/go-template/pkg/util"
 	"os"
 	"testing"
 )

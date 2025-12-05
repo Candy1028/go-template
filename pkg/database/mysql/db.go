@@ -3,9 +3,9 @@ package mysql
 import (
 	"context"
 	"fmt"
+	"github.com/Candy1028/go-template/log"
+	gormlogger "github.com/Candy1028/go-template/pkg/database/logger"
 	"github.com/spf13/viper"
-	"go-template/log"
-	gormlogger "go-template/pkg/database/logger"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"

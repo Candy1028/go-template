@@ -1,7 +1,7 @@
 package user
 
 import (
-	"go-template/pkg/app"
+	"github.com/Candy1028/go-template/pkg/app"
 
 	"github.com/gin-gonic/gin"
 )

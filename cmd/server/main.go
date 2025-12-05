@@ -2,14 +2,14 @@ package main
 
 import (
 	"context"
-	"go-template/config"
-	"go-template/internal/middleware/system"
-	"go-template/internal/user"
-	"go-template/log"
-	"go-template/pkg/app"
-	"go-template/pkg/database/mysql"
-	"go-template/pkg/database/redis"
-	"go-template/pkg/util"
+	"github.com/Candy1028/go-template/config"
+	"github.com/Candy1028/go-template/internal/middleware/system"
+	"github.com/Candy1028/go-template/internal/user"
+	"github.com/Candy1028/go-template/log"
+	"github.com/Candy1028/go-template/pkg/app"
+	"github.com/Candy1028/go-template/pkg/database/mysql"
+	"github.com/Candy1028/go-template/pkg/database/redis"
+	"github.com/Candy1028/go-template/pkg/util"
 	"path/filepath"
 
 	"github.com/gin-gonic/gin"

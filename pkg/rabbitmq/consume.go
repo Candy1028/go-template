@@ -1,7 +1,7 @@
 package rabbitmq
 
 import (
-	"go-template/log"
+	"github.com/Candy1028/go-template/log"
 	"time"
 
 	"github.com/streadway/amqp"

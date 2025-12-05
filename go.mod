@@ -1,4 +1,4 @@
-module go-template
+module github.com/Candy1028/go-template
 
 go 1.25.4
 
@@ -6,10 +6,8 @@ require (
 	github.com/gin-contrib/cors v1.7.6
 	github.com/gin-gonic/gin v1.11.0
 	github.com/golang-jwt/jwt/v5 v5.3.0
-	github.com/google/uuid v1.6.0
 	github.com/jordan-wright/email v4.0.1-0.20210109023952-943e75fe5223+incompatible
 	github.com/lestrrat-go/file-rotatelogs v2.4.0+incompatible
-	github.com/mileusna/useragent v1.3.5
 	github.com/mojocn/base64Captcha v1.3.8
 	github.com/olivere/elastic/v7 v7.0.32
 	github.com/qiniu/go-sdk/v7 v7.25.5

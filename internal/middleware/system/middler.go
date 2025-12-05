@@ -1,7 +1,7 @@
 package system
 
 import (
-	"go-template/pkg/comment/response"
+	"github.com/Candy1028/go-template/pkg/comment/response"
 	"sync"
 
 	"github.com/gin-gonic/gin"

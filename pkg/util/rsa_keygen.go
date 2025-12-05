@@ -7,7 +7,7 @@ import (
 	"crypto/x509"
 	"encoding/pem"
 	"fmt"
-	"go-template/log"
+	"github.com/Candy1028/go-template/log"
 	"os"
 
 	"github.com/redis/go-redis/v9"

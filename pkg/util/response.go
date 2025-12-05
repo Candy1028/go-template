@@ -1,7 +1,7 @@
 package util
 
 import (
-	"go-template/pkg/comment/response"
+	"github.com/Candy1028/go-template/pkg/comment/response"
 
 	"github.com/gin-gonic/gin"
 )
